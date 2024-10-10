@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#titulo {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+#subtitulo {
+    font-size: 1.2em;
+    color: #666;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Para incluir padding e border na largura total */
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+textarea {
+    resize: none; /* Impede o redimensionamento do textarea */
+}
+
+button.botao {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button.botao:hover {
+    background-color: #218838; /* Cor de fundo ao passar o mouse */
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    form {
+        padding: 15px;
+    }
+}
